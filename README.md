@@ -1,7 +1,8 @@
 # LifeDaily (Journal App)
 
-One Paragraph of project description goes here
-This is a sample app develop during the first phase (#7DaysChallenge) of the Google Udacity Africa Scholarship 2018 Challenge. 
+
+LifeDaily is a sample app develop during the first phase (#7DaysChallenge) of the Google Udacity Africa Scholarship 2018 Challenge.
+This is a [Diary](https://en.wikipedia.org/wiki/Diary) application which help users pen down their thoughts on daily basis 
 
 
 ## Getting Started
@@ -70,16 +71,16 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Android]
-* [Firebase]
-* [Gradle]  - Dependency Management
-* [Material Design]
-* [SQLite database]
+* [Android] (https://www.android.com)
+* [Firebase] (https://firebase.google.com/?gclid=CjwKCAjw9-HZBRAwEiwAGw0QcVjbtE4katBZcQ-D1oeqVdlFjQ5cxhgaM4jZ_atBbH7LFhT-3yMgExoCYvAQAvD_BwE)
+* [Gradle]  - Dependency Management (https://gradle.org)
+* [Material Design] (https://material.io/design)
+* [SQLite database] (https://www.sqlite.org/index.html)
 * [Room]
 
 ## Contributing
 
-This is an opensource project, but it is not open for contributions as of now. 
+This project is part of the Google Udacity African Challenge 2018. It is opensource project, but it is not open for contributions as of now. 
 
 ## Versioning
 
@@ -87,7 +88,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Akap Azmon** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Akap Azmon** - *Initial work* - [[LifeDaily Journal App](https://github.com/casyazmon/LifeDaily-Journal-app)
 
 
 
@@ -98,6 +99,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thanks to the all my team(ad-group-22) and group(ad-dev) members and the ALC
-* Google android codelabs 
+* Google android codelabs [Android Codelabs] (https://codelabs.developers.google.com)
 * etc
 
