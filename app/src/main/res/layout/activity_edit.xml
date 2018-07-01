@@ -40,8 +40,12 @@
                     android:id="@+id/addressEditText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/rect"
                     android:hint="@string/address"
                     android:inputType="textCapWords|textNoSuggestions"
+                    android:singleLine="true"
+                    android:padding="10dp"
+
                     android:lines="2"
                     android:minLines="2" />
 

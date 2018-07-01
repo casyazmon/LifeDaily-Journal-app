@@ -50,14 +50,6 @@ public class ListActivity extends AppCompatActivity implements ListContract.View
 
         mEmptyTextView = (TextView) findViewById(R.id.emptyTextView);
         mAuth = FirebaseAuth.getInstance();
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if(firebaseAuth.getCurrentUser() == null){
-                    startActivity(new Intent(ListActivity.this, MainActivity.class));
-                }
-            }
-        };
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.list);
         recyclerView.setHasFixedSize(true);
@@ -97,7 +89,10 @@ public class ListActivity extends AppCompatActivity implements ListContract.View
     protected void onStart() {
         super.onStart();
         mPresenter.populatePeople();
-        mAuth.addAuthStateListener(mAuthListener);
+        if (mAuth.getCurrentUser() == null) {
+            finish();
+            startActivity(new Intent(this, MainActivity.class));
+        }
     }
 
     @Override
