@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LifeDialy</string>
+
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="birthday">Birthday</string>
+
+    <string name="invalid_name">Invalid Name</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_birthday">Invalid Birthday</string>
+    <string name="invalid_phone">Invalid Phone</string>
+    <string name="invalid_address">Invalid Address</string>
+    <string name="person">Dairy</string>
+    <string name="are_you_sure">Are you sure to delete this?</string>
+    <string name="no_contacts">Your dairy is empty, add something.</string>
+    <string name="quote">"Every minutes you spend planning saves 10 minutes in execution" Brian Tracy</string>
+    <string name="google_policy">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "959901010768",
+    "firebase_url": "https://mydays-2375d.firebaseio.com",
+    "project_id": "mydays-2375d",
+    "storage_bucket": "mydays-2375d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959901010768:android:4ae5f2361833b41f",
+        "android_client_info": {
+          "package_name": "com.example.kasi.lifedaily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959901010768-mjru1nj5b0prvkdc2ou6hlv6mpgjk9i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kasi.lifedaily",
+            "certificate_hash": "fef1b6664e6f1dd44bffcba77379a67998a33253"
+          }
+        },
+        {
+          "client_id": "959901010768-ho0d4d6cte5s5jvqij8kqj67m0ig9eti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj1RdAHEQqrDuaOOzdWiYlbSsU-gt0qxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959901010768-ho0d4d6cte5s5jvqij8kqj67m0ig9eti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
