@@ -9,7 +9,7 @@ This is a [Diary](https://en.wikipedia.org/wiki/Diary) application which help us
 * View details of each entry
 * Delete info
 
-* (https://alcwithgoogle3.slack.com/messages/CANTCPGCA/convo/CAJB18J9M-1530453788.000031)
+
 
 
 
