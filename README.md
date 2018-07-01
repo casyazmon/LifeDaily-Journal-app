@@ -2,7 +2,15 @@
 
 
 LifeDaily is a sample app develop during the first phase (#7DaysChallenge) of the Google Udacity Africa Scholarship 2018 Challenge.
-This is a [Diary](https://en.wikipedia.org/wiki/Diary) application which help users pen down their thoughts on daily basis 
+This is a [Diary](https://en.wikipedia.org/wiki/Diary) application which help users pen down their thoughts on daily basis. it has the following basic functionalities :
+
+* Uses Firebase Auth to authenticate users
+* List all user diary entries
+* View details of each entry
+* Delete info
+
+* (https://alcwithgoogle3.slack.com/messages/CANTCPGCA/convo/CAJB18J9M-1530453788.000031)
+
 
 
 ## Getting Started
