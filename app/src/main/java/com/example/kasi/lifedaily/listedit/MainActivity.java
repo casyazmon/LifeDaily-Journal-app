@@ -27,7 +27,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 public class MainActivity extends AppCompatActivity {
     SignInButton sButton;
     FirebaseAuth mAuth;
-    private final static int RC_SIGN_IN = 2;
+    private final static int RC_SIGN_IN = 9001;
     GoogleApiClient mGoogleApiClient;
     FirebaseAuth.AuthStateListener mAuthListener;
 
@@ -79,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .addApi(Auth.GOOGLE_SIGN_IN_API)
                 .build();
+        mGoogleApiClient.connect();
 
     }
 
