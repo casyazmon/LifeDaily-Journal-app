@@ -24,15 +24,15 @@ public class EditActivity extends AppCompatActivity implements EditContract.View
 
     private EditText mNameEditText;
     private EditText mAddressEditText;
-    private EditText mEmailEditText;
+    //private EditText mEmailEditText;
     private EditText mBirthdayEditText;
-    private EditText mPhoneEditText;
+    //private EditText mPhoneEditText;
 
     private TextInputLayout mNameTextInputLayout;
     private TextInputLayout mAddressInputLayout;
-    private TextInputLayout mEmailInputLayout;
+    //private TextInputLayout mEmailInputLayout;
     private TextInputLayout mBirthdayInputLayout;
-    private TextInputLayout mPhoneTextInputLayout;
+    //private TextInputLayout mPhoneTextInputLayout;
 
     private FloatingActionButton mFab;
 
@@ -121,10 +121,10 @@ public class EditActivity extends AppCompatActivity implements EditContract.View
     public void showErrorMessage(int field) {
         if (field == Constants.FIELD_NAME) {
             mNameTextInputLayout.setError(getString(R.string.invalid_name));
-        } else if (field == Constants.FIELD_EMAIL) {
-            mEmailInputLayout.setError(getString(R.string.invalid_email));
-        } else if (field == Constants.FIELD_PHONE) {
-            mPhoneTextInputLayout.setError(getString(R.string.invalid_phone));
+       /* } else if (field == Constants.FIELD_EMAIL) {
+            mEmailInputLayout.setError(getString(R.string.invalid_email));*/
+        /*} else if (field == Constants.FIELD_PHONE) {
+            mPhoneTextInputLayout.setError(getString(R.string.invalid_phone));*/
         } else if (field == Constants.FIELD_ADDRESS) {
             mAddressInputLayout.setError(getString(R.string.invalid_address));
         } else if (field == Constants.FIELD_BIRTHDAY) {
@@ -135,8 +135,8 @@ public class EditActivity extends AppCompatActivity implements EditContract.View
     @Override
     public void clearPreErrors() {
         mNameTextInputLayout.setErrorEnabled(false);
-        mEmailInputLayout.setErrorEnabled(false);
-        mPhoneTextInputLayout.setErrorEnabled(false);
+        /*mEmailInputLayout.setErrorEnabled(false);
+        mPhoneTextInputLayout.setErrorEnabled(false);*/
         mAddressInputLayout.setErrorEnabled(false);
         mBirthdayInputLayout.setErrorEnabled(false);
     }

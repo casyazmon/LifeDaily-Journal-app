@@ -32,6 +32,7 @@ public class ListActivity extends AppCompatActivity implements ListContract.View
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
